@@ -1,0 +1,14 @@
+
+.titleName {
+        color: blue;
+        font-size: 160;
+        display: inline-block;
+        position: relative;
+    }
+
+
+
+.icons {
+    color: green;
+    font-size: 100px;
+  }
