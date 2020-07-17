@@ -1,14 +1,13 @@
 
-.titleName {
-        color: blue;
-        font-size: 160;
-        display: inline-block;
-        position: relative;
-    }
+    .name {
+            display: flex;
+            justify-content: center;
+            font-size: 4em;
+        }
 
 
 
 .icons {
-    color: green;
+    color:   rgb(43, 43, 177);
     font-size: 100px;
   }
