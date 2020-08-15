@@ -1,13 +1,76 @@
 
     .name {
-            display: flex;
-            justify-content: center;
-            font-size: 4em;
+        color: rgb(211, 39, 16);
+        font-family: 'Times New Roman';
+        font-size: 10vw;
+        display: inline-block;
+        position: relative;
         }
 
+    .nameContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
 
+     .navbar{
+        background-color: white;
+        }
+          
+    .navList{
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .nav-link{
+        color: black;
+        font-size: 25px;
+        font-family: 'Times New Roman';
+      }
+    
+    .profContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+      }
+
+    .profPic {
+        margin: 20px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+
+      }
+    .infoContainer {
+        margin: 20px;
+
+    }
+
+      .info {
+        color: rgb(54, 65, 86);
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        text-align:center;
+    }
+
+
+    .headingContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .heading {
+        color: rgb(182, 78, 52);
+        font-family: 'Times New Roman';
+        font-size: 35px;
+        display: inline-block;
+        position: relative;
+        margin-top: 70px;
+       
+    }
 
 .icons {
-    color:   rgb(43, 43, 177);
+    color:   rgb(15, 63, 153);
     font-size: 100px;
   }
