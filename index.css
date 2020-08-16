@@ -30,6 +30,7 @@
       }
     
     .profContainer {
+        
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -47,7 +48,7 @@
 
     }
 
-      .info {
+    .info {
         color: rgb(29, 53, 87);
         font-family: "Asar";
         font-size: 20px;
@@ -146,21 +147,27 @@
         max-width: 80%;
         height: auto;
         
-    
-
-
       }
 
       .lullPic {
         margin: 20px;
-        width: 100%;
-        max-width: 300px;
+        max-width: 100%;
         height: auto;
 
       }
+
+      .infoText {
+        color: rgb(29, 53, 87);
+        font-family: "Asar";
+        font-size: 20px;
+        text-align:center;
+        margin-bottom: 0px;
+    }
     .iconsContainer {
         display: flex;
         justify-content: space-evenly;
+        margin-top:50px;
+
         margin-bottom:80px;
         margin-left: 20px;
         margin-right: 20px;
@@ -169,4 +176,3 @@
         color: rgb(29, 53, 87);
         font-size: 100px;
     }
-
