@@ -31,9 +31,9 @@
     
     .profContainer {
         
-        display: flex;
         flex-direction: row;
         justify-content: center;
+        text-align:center;
 
       }
 
@@ -139,7 +139,6 @@
         justify-content: center;
         text-align:center;
         
-
 
       }
     .dartcalPic {
