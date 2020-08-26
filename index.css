@@ -2,21 +2,20 @@
     .name {
         color: rgb(230, 57, 70);
         font-family: 'Asar';
-        
         font-size: 10vw;
         display: inline-block;
         position: relative;
-        }
+    }
 
     .nameContainer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        }
+    }
 
      .navbar{
         background-color: rgb(241, 250, 238);
-        }
+    }
           
     .navList{
         width: 100vw;
@@ -27,27 +26,28 @@
         color: rgb(29, 53, 87);
         font-size: 25px;
         font-family: "Asar";
-      }
+    }
     
-    .profContainer {
-        
+    .profContainer { 
         flex-direction: row;
         justify-content: center;
         text-align:center;
-
-
-       
-      }
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+    }
 
     .profPic {
         margin: 20px;
         max-width: 30%;
         height: auto;
+    }
 
-      }
     .infoContainer {
         margin: 20px;
-
     }
 
     .info {
@@ -62,28 +62,25 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-
     }
+
     .heading {
         color: rgb(230, 57, 70);
         font-family: "Asar";
         font-size: 35px;
-        display: inline-block;
+       display: inline-block;
         position: relative;
-        margin-top: 70px;
-       
+        margin-top: 70px;  
     }
+
     .aboutIcons {
         color: rgb(29, 53, 87);
         font-size: 100px;
         justify-content:center; 
         margin-top: 30px;
         margin-bottom: 30px;
-
-
-        
-
     }
+
     .aboutTitles {
 
         justify-content:center; 
@@ -91,7 +88,6 @@
         font-size: 30px;
         margin-bottom: 0px;
         font-family: "Asar";
-
     }
 
     .aboutSpecifics {
@@ -100,17 +96,11 @@
         font-size: 20px;
         margin-bottom: 0px;
         font-family: "Asar";
-
-        
-
     }
 
     .experienceContainer {
         justify-content: center;
         margin-bottom: 70px;
-
-
-
     }
 
     .experienceTitle {
@@ -120,9 +110,8 @@
         font-family: "Asar";
         margin-bottom: 10px;
         margin-top: 20px;
-
-
     }
+
     .experienceSpecific {
         justify-content:left; 
         font-size: 20px;
@@ -133,31 +122,27 @@
         margin-right: 0px;
         flex-wrap: wrap;
         display: flex;
-
     }
 
     .experiencePicContainer {
         flex-direction: row;
         justify-content: center;
         text-align:center;
-        
+    }
 
-      }
     .dartcalPic {
         margin: 20px;
         max-width: 80%;
         height: auto;
-        
-      }
+    }
 
-      .lullPic {
+    .lullPic {
         margin: 20px;
         max-width: 100%;
         height: auto;
+    }
 
-      }
-
-      .infoText {
+    .infoText {
         color: rgb(29, 53, 87);
         font-family: "Asar";
         font-size: 20px;
@@ -172,7 +157,8 @@
         margin-bottom:80px;
         margin-left: 20px;
         margin-right: 20px;
-      }
+    }
+
     .contactIcons {
         color: rgb(29, 53, 87);
         font-size: 100px;
